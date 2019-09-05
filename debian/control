@@ -1,0 +1,12 @@
+Source: ros-dashing-turtlebot3-bringup
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Homepage: http://wiki.ros.org/turtlebot3_bringup
+Standards-Version: 3.9.2
+
+Package: ros-dashing-turtlebot3-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-hls-lfcd-lds-driver, ros-dashing-robot-state-publisher, ros-dashing-rviz2, ros-dashing-turtlebot3-description, ros-dashing-turtlebot3-node, ros-dashing-ros-workspace
+Description: ROS 2 launch scripts for starting the TurtleBot3
