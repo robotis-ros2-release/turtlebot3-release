@@ -1,0 +1,12 @@
+Source: ros-dashing-turtlebot3-navigation2
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Homepage: http://wiki.ros.org/turtlebot3_bringup
+Standards-Version: 3.9.2
+
+Package: ros-dashing-turtlebot3-navigation2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-nav2-bringup, ros-dashing-ros-workspace
+Description: ROS 2 launch scripts for navigation2
