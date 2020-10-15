@@ -1,0 +1,28 @@
+ros-dashing-turtlebot3-node (2.1.0-1bionic) bionic; urgency=high
+
+  * ROS 2 Foxy Fitzroy supported
+  * ROS 2 Eloquent Elusor supported
+  * Contributors: Ryan, Ashe
+
+ -- Will Son <willson@robotis.com>  Sun, 21 Jun 2020 15:00:00 -0000
+
+ros-dashing-turtlebot3-node (2.0.1-1bionic) bionic; urgency=high
+
+  * Updated the CHANGELOG and version to release binary packages
+  * Modified dependency packages
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 04 Sep 2019 15:00:00 -0000
+
+ros-dashing-turtlebot3-node (2.0.0-1bionic) bionic; urgency=high
+
+  * Supported ROS 2 Dashing Diademata
+  * Updated the CHANGELOG and version to release binary packages
+  * Fixed ROS2 dependencies and library install #454 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/454>
+  * Fixed scan rate to 5hz #418 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/418>
+  * Initialized joint states variables #411 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/411>
+  * Contributors: Matt Hansen, Emerson Knapp, Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 19 Aug 2019 15:00:00 -0000
+
+
