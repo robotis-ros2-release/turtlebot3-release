@@ -1,0 +1,12 @@
+Source: ros-foxy-turtlebot3-navigation2
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-foxy-turtlebot3-navigation2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-nav2-bringup, ros-foxy-ros-workspace
+Description: ROS 2 launch scripts for navigation2
