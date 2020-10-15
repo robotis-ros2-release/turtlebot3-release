@@ -1,0 +1,12 @@
+Source: ros-eloquent-turtlebot3
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-turtlebot3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-turtlebot3-bringup, ros-eloquent-turtlebot3-cartographer, ros-eloquent-turtlebot3-description, ros-eloquent-turtlebot3-example, ros-eloquent-turtlebot3-navigation2, ros-eloquent-turtlebot3-node, ros-eloquent-turtlebot3-teleop, ros-eloquent-ros-workspace
+Description: ROS 2 packages for TurtleBot3
