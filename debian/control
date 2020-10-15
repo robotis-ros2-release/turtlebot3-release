@@ -1,0 +1,12 @@
+Source: ros-eloquent-turtlebot3-node
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-dynamixel-sdk, ros-eloquent-geometry-msgs, ros-eloquent-message-filters, ros-eloquent-nav-msgs, ros-eloquent-rclcpp, ros-eloquent-rcutils, ros-eloquent-sensor-msgs, ros-eloquent-std-msgs, ros-eloquent-std-srvs, ros-eloquent-tf2, ros-eloquent-tf2-ros, ros-eloquent-turtlebot3-msgs, ros-eloquent-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-turtlebot3-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-dynamixel-sdk, ros-eloquent-geometry-msgs, ros-eloquent-message-filters, ros-eloquent-nav-msgs, ros-eloquent-rclcpp, ros-eloquent-rcutils, ros-eloquent-sensor-msgs, ros-eloquent-std-msgs, ros-eloquent-std-srvs, ros-eloquent-tf2, ros-eloquent-tf2-ros, ros-eloquent-turtlebot3-msgs, ros-eloquent-ros-workspace
+Description: TurtleBot3 driver node that include diff drive controller, odometry and tf node
