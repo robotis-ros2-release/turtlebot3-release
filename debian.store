@@ -1,1 +1,1 @@
-{"trim": "", "base": "74a756d", "trimbase": "", "parent": "debian/foxy/turtlebot3_teleop", "previous": "93aa68e"}
+{"base": "c9b9e63", "parent": "debian/foxy/turtlebot3_teleop", "previous": "4492fd5", "trim": "", "trimbase": ""}
