@@ -1,0 +1,37 @@
+ros-foxy-turtlebot3-node (2.1.1-1focal) focal; urgency=high
+
+  * turtlebot3.repos updated to target correct distro
+  * galactic-devel branch created
+  * Eloquent EOL
+  * Contributors: Ashe Kim, Will Son
+
+ -- Will Son <willson@robotis.com>  Tue, 05 Jan 2021 15:00:00 -0000
+
+ros-foxy-turtlebot3-node (2.1.0-1focal) focal; urgency=high
+
+  * ROS 2 Foxy Fitzroy supported
+  * ROS 2 Eloquent Elusor supported
+  * Contributors: Ryan, Ashe
+
+ -- Will Son <willson@robotis.com>  Sun, 21 Jun 2020 15:00:00 -0000
+
+ros-foxy-turtlebot3-node (2.0.1-1focal) focal; urgency=high
+
+  * Updated the CHANGELOG and version to release binary packages
+  * Modified dependency packages
+  * Contributors: Darby Lim, Pyo
+
+ -- Will Son <willson@robotis.com>  Wed, 04 Sep 2019 15:00:00 -0000
+
+ros-foxy-turtlebot3-node (2.0.0-1focal) focal; urgency=high
+
+  * Supported ROS 2 Dashing Diademata
+  * Updated the CHANGELOG and version to release binary packages
+  * Fixed ROS2 dependencies and library install #454 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/454>
+  * Fixed scan rate to 5hz #418 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/418>
+  * Initialized joint states variables #411 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/411>
+  * Contributors: Matt Hansen, Emerson Knapp, Darby Lim, Pyo
+
+ -- Will Son <willson@robotis.com>  Mon, 19 Aug 2019 15:00:00 -0000
+
+
