@@ -1,0 +1,12 @@
+Source: ros-foxy-turtlebot3-teleop
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ros-workspace, python3-all, python3-setuptools
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-foxy-turtlebot3-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-foxy-geometry-msgs, ros-foxy-rclpy, ros-foxy-ros-workspace
+Description: Teleoperation node using keyboard for TurtleBot3.
