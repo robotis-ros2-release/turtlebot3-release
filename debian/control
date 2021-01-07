@@ -1,0 +1,12 @@
+Source: ros-dashing-turtlebot3-example
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-geometry-msgs, ros-dashing-nav-msgs, ros-dashing-rclpy, ros-dashing-sensor-msgs, ros-dashing-turtlebot3-msgs, ros-dashing-ros-workspace, python3-all, python3-setuptools
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-dashing-turtlebot3-example
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-dashing-geometry-msgs, ros-dashing-nav-msgs, ros-dashing-rclpy, ros-dashing-sensor-msgs, ros-dashing-turtlebot3-msgs, ros-dashing-ros-workspace
+Description: This package provides four basic examples for TurtleBot3 (i.e., interactive marker, object detection, patrol and position control).
