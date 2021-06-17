@@ -36,11 +36,11 @@ Odometry::Odometry(
 {
   RCLCPP_INFO(nh_->get_logger(), "Init Odometry");
 
-  nh_->declare_parameter("odometry.frame_id");
-  nh_->declare_parameter("odometry.child_frame_id");
+  nh_->declare_parameter<std::string>("odometry.frame_id");
+  nh_->declare_parameter<std::string>("odometry.child_frame_id");
 
-  nh_->declare_parameter("odometry.use_imu");
-  nh_->declare_parameter("odometry.publish_tf");
+  nh_->declare_parameter<bool>("odometry.use_imu");
+  nh_->declare_parameter<bool>("odometry.publish_tf");
 
   nh_->get_parameter_or<bool>(
     "odometry.use_imu",
@@ -109,7 +109,8 @@ Odometry::Odometry(
 void Odometry::joint_state_callback(const sensor_msgs::msg::JointState::SharedPtr joint_state_msg)
 {
   static rclcpp::Time last_time = joint_state_msg->header.stamp;
-  rclcpp::Duration duration(joint_state_msg->header.stamp.nanosec - last_time.nanoseconds());
+  rclcpp::Duration duration(rclcpp::Duration::from_nanoseconds(
+      joint_state_msg->header.stamp.nanosec - last_time.nanoseconds()));
 
   update_joint_state(joint_state_msg);
   calculate_odometry(duration);
@@ -129,7 +130,8 @@ void Odometry::joint_state_and_imu_callback(
     imu_msg->header.stamp.nanosec);
 
   static rclcpp::Time last_time = joint_state_msg->header.stamp;
-  rclcpp::Duration duration(joint_state_msg->header.stamp.nanosec - last_time.nanoseconds());
+  rclcpp::Duration duration(rclcpp::Duration::from_nanoseconds(
+      joint_state_msg->header.stamp.nanosec - last_time.nanoseconds()));
 
   update_joint_state(joint_state_msg);
   update_imu(imu_msg);

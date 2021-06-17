@@ -2,6 +2,15 @@
 Changelog for package turtlebot3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.2 (2021-06-17)
+------------------
+* use static param types for Galactic
+* fix SensorState msg
+* rename and update nav2 params
+* modify robot_state_publisher
+* fix odometry bug
+* Contributors: jhbirdchoi, David Park, Ashe Kim, Will Son
+
 2.1.1 (2021-01-06)
 ------------------
 * Nav2 prefix filename removed
