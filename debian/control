@@ -1,0 +1,12 @@
+Source: ros-galactic-turtlebot3-example
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-rclpy, ros-galactic-sensor-msgs, ros-galactic-turtlebot3-msgs, ros-galactic-ros-workspace, python3-all, python3-setuptools
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-galactic-turtlebot3-example
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-rclpy, ros-galactic-sensor-msgs, ros-galactic-turtlebot3-msgs, ros-galactic-ros-workspace
+Description: This package provides four basic examples for TurtleBot3 (i.e., interactive marker, object detection, patrol and position control).
