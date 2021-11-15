@@ -1,0 +1,12 @@
+Source: ros-galactic-turtlebot3-teleop
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ros-workspace, python3-all, python3-setuptools
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-galactic-turtlebot3-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-galactic-geometry-msgs, ros-galactic-rclpy, ros-galactic-ros-workspace
+Description: Teleoperation node using keyboard for TurtleBot3.
