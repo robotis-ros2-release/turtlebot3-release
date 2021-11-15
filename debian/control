@@ -1,0 +1,12 @@
+Source: ros-galactic-turtlebot3-node
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-dynamixel-sdk, ros-galactic-geometry-msgs, ros-galactic-message-filters, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-rcutils, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-std-srvs, ros-galactic-tf2, ros-galactic-tf2-ros, ros-galactic-turtlebot3-msgs, ros-galactic-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-galactic-turtlebot3-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-dynamixel-sdk, ros-galactic-geometry-msgs, ros-galactic-message-filters, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-rcutils, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-std-srvs, ros-galactic-tf2, ros-galactic-tf2-ros, ros-galactic-turtlebot3-msgs, ros-galactic-ros-workspace
+Description: TurtleBot3 driver node that include diff drive controller, odometry and tf node
