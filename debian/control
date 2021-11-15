@@ -1,0 +1,12 @@
+Source: ros-galactic-turtlebot3-bringup
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-galactic-turtlebot3-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-hls-lfcd-lds-driver, ros-galactic-robot-state-publisher, ros-galactic-rviz2, ros-galactic-turtlebot3-description, ros-galactic-turtlebot3-node, ros-galactic-ros-workspace
+Description: ROS 2 launch scripts for starting the TurtleBot3
